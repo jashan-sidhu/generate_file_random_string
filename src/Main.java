@@ -14,7 +14,7 @@ public class Main {
         int x = 10; // Set the desired number of lines
         int stringLength = 10; // Set the length of each string
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("outputFile.txt"))) {
             Set<String> uniqueStrings = new HashSet<>();
             Random random = new Random();
             StringBuilder sb = new StringBuilder();
